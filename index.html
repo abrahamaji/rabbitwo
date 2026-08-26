@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A modern professional website starter built with HTML, CSS and JavaScript.">
+  <title>Rabbitwo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="logo" href="#home">
+    <img src="images/rabbitwo-1.jpg" alt="Your Brand Logo">
+</a>
+
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        ☰
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">WELCOME TO Rabbitwo</p>
+          <h1>Build something <span>people remember.</span></h1>
+          <p class="hero-description">
+            A clean, modern and responsive website starter that you can
+            customise for your business, organisation or personal project.
+          </p>
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="#contact">Get Started</a>
+            <a class="btn btn-secondary" href="#services">Explore Services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-column">
+        <div>
+          <p class="eyebrow">ABOUT US</p>
+          <h2>Professional. Simple. Effective.</h2>
+        </div>
+        <div>
+          <p>
+            Replace this text with your company or organisation's story.
+            Explain who you are, what you do and why customers should choose
+            you.
+          </p>
+          <p>
+            This section is deliberately simple so we can gradually turn this
+            starter into a complete professional website.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section section-light">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT WE DO</p>
+          <h2>Our Services</h2>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card-number">01</div>
+            <h3>Service One</h3>
+            <p>Describe your first major service or offering here.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-number">02</div>
+            <h3>Service Two</h3>
+            <p>Describe your second major service or offering here.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-number">03</div>
+            <h3>Service Three</h3>
+            <p>Describe your third major service or offering here.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-box">
+        <div>
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>Let's start a conversation.</h2>
+          <p>Replace this with your email, phone number or contact details.</p>
+        </div>
+
+        <form id="contactForm" class="contact-form">
+          <label>
+            Name
+            <input type="text" name="name" required>
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" required>
+          </label>
+
+          <label>
+            Message
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p id="formMessage" class="form-message" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+<section id="posts" class="section section-light">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">LATEST UPDATES</p>
+      <h2>Daily Posts</h2>
+    </div>
+
+    <div class="posts-list">
+      <article class="post">
+        <h3>Post Title One</h3>
+        <p class="post-date">August 26, 2026</p>
+        <p>
+          A short introduction or excerpt of your post goes here. Keep it
+          concise and engaging so readers click through.
+        </p>
+        <a href="#">Read more →</a>
+      </article>
+
+      <article class="post">
+        <h3>Post Title Two</h3>
+        <p class="post-date">August 25, 2026</p>
+        <p>
+          Another sample post description. You can replace this with text or
+          even embed an image.
+        </p>
+        <a href="#">Read more →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Your Brand. All rights reserved.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
